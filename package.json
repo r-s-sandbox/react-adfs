@@ -1,0 +1,49 @@
+{
+  "name": "react-adfs",
+  "version": "1.0.1",
+  "description": "Active Directory Federation Service 2012 (ADFS) support for ReactJS",
+  "main": "lib/react-adfs.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src --out-dir lib",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-s-sandbox/react-adfs.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "ADFS",
+    "oauth",
+    "oauth2",
+    "react-adfs",
+    "actve",
+    "directory"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime-corejs2": "^7.5.4",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "license": "MIT"
+}
